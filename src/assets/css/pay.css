@@ -1,0 +1,154 @@
+.pay {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.pay > .wrap {
+    display: flex;
+    flex-direction: row;
+}
+.wrap > div {
+    margin: 0 3px;
+}
+ul li {
+    list-style: none;
+}
+.header1 > ul li {
+     float: left;
+     margin-left:7px;
+     font-size: 15px;
+     font-family: "Arial Unicode MS";
+}
+.header1 > ul li :after {
+    content:"";
+    clear: both;
+}
+
+/*2*/
+
+.pay2 {
+    width: 100%;
+    height: 490px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.pay2 > .wrap {
+    display: flex;
+    flex-direction: row;
+}
+.pay2 ul {
+     box-shadow: 0 1px 2px 1px #e9e7e7;
+}
+.pay2 li {
+    margin-top: 5px;
+    font-family: "Weibei SC";  margin-left: -20px;
+}
+.pay2 li:hover {
+    /*font-size: 17px;*/
+    color: orange;
+}
+
+/* 3 */
+ .pay3 {
+     width: 100%;
+     height: 260px;
+     margin-top: 60px;
+ }
+
+ .pay3 > .wrap {
+     display: flex;
+     box-shadow: 0 1px 2px 1px #e9e7e7;
+ }
+
+ .pay3-slider {
+      display: flex;
+      flex-direction:row;
+      flex-wrap: nowrap;
+ }
+.pay3-slider-div {
+     flex:1;
+}
+.pay3-slider-div > img:after {
+    content:"111111";
+    width: 1px;
+    height: 40px;
+    border-right: 1px solid #dbdada;
+}
+
+.pay3-slider > p {
+    text-align: center;
+}
+
+
+.pay3-slider-div > img {
+   margin: 0 auto;
+}
+
+
+/* 4 */
+ .pay4 {
+     width: 100%;
+     height: 340px;
+     margin-top: 70px;
+ }
+
+ .pay4 > .wrap {
+      display: flex;
+      flex-direction: row;
+ }
+
+.pay4 > .wrap > div {
+    flex: 1;
+}
+.pay4-left,
+.pay4-right{
+    box-shadow: 0 0 2px 1px #e9e7e7;
+}
+
+.pay4-left-top {
+    width: 100%;
+    height: 50px;
+}
+.pay4-left-top > ul {
+    display: inline-block;
+    float: right;
+}
+.pay4-left-top > ul li {
+    float: left;
+    margin-left: 7px;
+    color: #949292;
+}
+.pay4-left-bootm {
+     width: 100%;
+     height: calc(100% - 70px);
+}
+
+/* 5 */
+ .pay5 {
+     width: 100%;
+     height: 100%;
+     margin-top: 20px;
+ }
+
+ .pay5 > .wrap {
+     display: flex;
+ }
+ .pay5-long {
+     flex:1;
+     box-shadow: 0 0 2px 1px #e9e7e7;
+ }
+
+/*  6 */
+ .pay6 {
+      width: 100%;
+      height: 100%;
+      margin-top: 40px;
+ }
+
+ .pay6 > .wrap > p:after {
+     content: "";
+     width: 25px;
+     height: 20px;
+     background-image: url("../../../src/assets/img/sprite-left.png");
+ }

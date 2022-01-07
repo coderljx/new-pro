@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="app">
+   <!-- <home></home> -->
+ <!--  想要实现页面正常跳转, 必须要在app.vue 页面中写上下面标签, 来表明让路由显示 -->
+ <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import home from "../src//components/Home/Home.vue"
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    // home
+  },
+
+  mounted(){
+
   }
+
+
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html,body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
 }
 </style>
